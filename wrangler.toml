@@ -20,11 +20,11 @@ enabled = true
 # Bind a KV Namespace. Use KV as persistent storage for small key-value pairs.
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#kv-namespaces
 [[kv_namespaces]]
-binding = "NZ_BOT_STORE"
-id = "kv_namespace_id"
+binding = "nezhabot"
+id = "e2f69d3b918342c3ba65268fa4426779"
 
 [vars]
-NZ_BASEURL="https://www.example.com"
+NZ_BASEURL="https://nezhav1.liulisanwan.com"
 LANG="en"
 ENDPOINT_PATH = "/endpoint"
 
